@@ -21,8 +21,6 @@ const EventPage = () => {
     const imgData1 = getImage(data.sectionImg1.localFile);
     const imgSponsor1 = getImage(data.sponsorImg1.localFile);
     const imgSponsor2 = getImage(data.sponsorImg2.localFile);
-    const videoTour = data.sectionVideo2;
-    console.log(videoTour, "here")
     
 
     return (

@@ -14,7 +14,7 @@ const HistoryAboutCTA = () => {
            
            <AboutText className="about-text">
               <div className="history-text" dangerouslySetInnerHTML={{ __html: data.wpPage.content}} />
-               <Link to={cta.ACF_HomePage.cta3Link} className="about-btn">Learn More</Link>
+               <Link to={cta.ACF_HomePage.what_is_link} className="about-btn">Learn More</Link>
             </AboutText>
           
            <ImgWrapper image={imageData} />

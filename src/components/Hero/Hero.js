@@ -31,7 +31,7 @@ const Hero = () => {
 
                 <div className="hero-line2">
                 <span className="hero__details">Join Us</span>
-                <h3>History in Bloom: 
+                <h3>Save the Date: 
                 Historic Homes & Artisan Demonstrations</h3>
                 </div>
 
@@ -42,9 +42,9 @@ const Hero = () => {
                 </p>
                 <p>&nbsp;
                 </p>
-//                <a href="https://www.eventbrite.com/e/33rd-bungalow-heaven-home-tour-tickets-541822805597" className="tour-cta_btn">
-                    Buy Tickets
-//                </a>
+                <!-- a href="https://www.eventbrite.com/e/33rd-bungalow-heaven-home-tour-tickets-541822805597" className="tour-cta_btn">
+                    Buy Tickets -->
+                <!-- /a -->
                 </Content>
             </HeaderWrapper> 
         </Wrapper>

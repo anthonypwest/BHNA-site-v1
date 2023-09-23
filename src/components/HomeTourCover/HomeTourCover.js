@@ -19,7 +19,7 @@ const HomeTourCover = () => {
             
           
            <TourDetails className="about-text">
-            <h2>34rd Bungalow Heaven Home Tour</h2>  
+            <h2>34th Bungalow Heaven Home Tour</h2>  
             <Seperator />
             <div>
                 <p className="tour__headline">Save the Date</p>

@@ -19,7 +19,7 @@ const HomeTourCover = () => {
             
           
            <TourDetails className="about-text">
-            <h2>33rd Bungalow Heaven Home Tour</h2>  
+            <h2>34rd Bungalow Heaven Home Tour</h2>  
             <Seperator />
             <div>
                 <p className="tour__headline">Save the Date</p>
@@ -27,7 +27,7 @@ const HomeTourCover = () => {
             </div>
             <Seperator />
             <div>
-                <p className="tour__online">Join us in person</p>
+                <p className="tour__online">Join us</p>
                 <p className="tour__info"> <b>April 28, 2024</b> | Tickets not yet Available on Eventbrite</p>
                 <a href="https://www.eventbrite.com/e/33rd-bungalow-heaven-home-tour-tickets-541822805597" rel="noopener noreferrer" target="_blank">
                     <button>

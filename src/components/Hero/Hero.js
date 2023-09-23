@@ -24,13 +24,13 @@ const Hero = () => {
                 <Content>
                 <div className="hero-line1">
                 
-                <span className="hero__details date">April 30, 2023</span>
-                <h1 className="hero__title">33rd Bungalow Heaven Home Tour</h1>
+                <span className="hero__details date">April 28, 2024</span>
+                <h1 className="hero__title">34rd Bungalow Heaven Home Tour</h1>
                 
                 </div>
 
                 <div className="hero-line2">
-                <span className="hero__details">Join Us in Person</span>
+                <span className="hero__details">Join Us</span>
                 <h3>History in Bloom: 
                 Historic Homes & Artisan Demonstrations</h3>
                 </div>
@@ -42,11 +42,9 @@ const Hero = () => {
                 </p>
                 <p>&nbsp;
                 </p>
-/*
-                <a href="https://www.eventbrite.com/e/33rd-bungalow-heaven-home-tour-tickets-541822805597" className="tour-cta_btn">
+//                <a href="https://www.eventbrite.com/e/33rd-bungalow-heaven-home-tour-tickets-541822805597" className="tour-cta_btn">
                     Buy Tickets
-                </a>
-*/
+//                </a>
                 </Content>
             </HeaderWrapper> 
         </Wrapper>

@@ -29,6 +29,11 @@ const HomeTourCover = () => {
             <div>
                 <p className="tour__online">Join us</p>
                 <p className="tour__info"> <b>April 28, 2024</b> | Tickets will be available in 2024</p>
+                <a href="https://www.eventbrite.com/e/34th-bungalow-heaven-home-tour-tickets-839240369537" rel="noopener noreferrer" target="_blank">
+                    <button>
+                        Buy Tickets
+                    </button>
+                </a>
             </div>
 
 

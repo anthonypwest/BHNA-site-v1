@@ -22,8 +22,7 @@ const HomeTourCover = () => {
             <h2>34th Bungalow Heaven Home Tour</h2>  
             <Seperator />
             <div>
-                <p className="tour__headline">Historic Hearths and Home</p>
-                <p className="tour__sub-headline">Historic Homes & Artisan Demonstrations</p>
+                <p className="tour__headline">Historic Hearths and Homes</p>
             </div>
             <Seperator />
             <div>

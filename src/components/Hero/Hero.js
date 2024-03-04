@@ -31,7 +31,7 @@ const Hero = () => {
 
                 <div className="hero-line2">
                 <span className="hero__details">Join Us</span>
-                <h3>Save the Date: 
+                <h3>Historic Hearths and Home: 
                 Historic Homes & Artisan Demonstrations</h3>
                 </div>
 

@@ -43,6 +43,10 @@ const Hero = () => {
                 <p>&nbsp;
                 </p>
 
+                <a href="https://www.eventbrite.com/e/34th-bungalow-heaven-home-tour-tickets-839240369537" className="tour-cta_btn">
+                    Buy Tickets
+                </a>
+                    
                 </Content>
             </HeaderWrapper> 
         </Wrapper>

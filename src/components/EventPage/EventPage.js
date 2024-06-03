@@ -35,9 +35,6 @@ const EventPage = () => {
             {parse(`${data.section2}`)}
             </SectionCopy>
 
-            <SectionImg>
-            <StyledImg image={imgData1} alt="something" /> 
-            </SectionImg>
             </Section>
          
             </Wrapper>

@@ -19,20 +19,16 @@ const HomeTourCover = () => {
             
           
            <TourDetails className="about-text">
-            <h2>34th Annual Bungalow Heaven Home Tour</h2>  
+            <h2>35th Annual Bungalow Heaven Home Tour</h2>  
             <Seperator />
             <div>
-                <p className="tour__headline">Historic Hearths and Homes</p>
+                <p className="tour__headline">Save the Date</p>
+                <p className="tour__sub-headline">Historic Homes & Artisan Demonstrations</p>
             </div>
             <Seperator />
             <div>
                 <p className="tour__online">Join us</p>
-                <p className="tour__info"> <b>April 28, 2024</b> | Tickets are now available</p>
-                <a href="https://www.eventbrite.com/e/34th-bungalow-heaven-home-tour-tickets-839240369537" rel="noopener noreferrer" target="_blank">
-                    <button>
-                        Buy Tickets
-                    </button>
-                </a>
+                <p className="tour__info"> <b>April 27, 2025</b> | Tickets will be available in 2025</p>
             </div>
 
 

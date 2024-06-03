@@ -24,14 +24,15 @@ const Hero = () => {
                 <Content>
                 <div className="hero-line1">
                 
-                <span className="hero__details date">April 28, 2024</span>
-                <h1 className="hero__title">34th Annual Bungalow Heaven Home Tour</h1>
+                <span className="hero__details date">April 27, 2025</span>
+                <h1 className="hero__title">35th Annual Bungalow Heaven Home Tour</h1>
                 
                 </div>
 
                 <div className="hero-line2">
                 <span className="hero__details">Join Us</span>
-                <h3>Historic Hearths and Homes</h3>
+                <h3>Save the Date: 
+                Historic Homes & Artisan Demonstrations</h3>
                 </div>
 
                 <Link to="/events/bungalow-heaven-home-tour" className="tour-cta_btn">
@@ -41,10 +42,6 @@ const Hero = () => {
                 </p>
                 <p>&nbsp;
                 </p>
-
-                <a href="https://www.eventbrite.com/e/34th-bungalow-heaven-home-tour-tickets-839240369537" className="tour-cta_btn">
-                    Buy Tickets
-                </a>
                     
                 </Content>
             </HeaderWrapper> 

@@ -10,6 +10,7 @@ import BungalowOrigins from "../components/BungalowOrigins/BungalowOrigins"
 import LandmarkPage from "../components/LandmarkPage/LandmarkPage"
 import EventPage from "../components/EventPage/EventPage"
 import ShopPage from "../components/ShopPage/ShopPage"
+import ArchPage from "../components/ArchPage/ArchPage"
 import BuildingReqPage from "../components/BuildingReqPage/BuildingReqPage"
 
 import { Content, Wrapper, ContentWrapper, PageContent } from "../styles/Page.styles"
@@ -32,6 +33,7 @@ const PageTemplate = ({ data }) => {
   const uriBoD = `/about-us/board-of-directors/`
   const uriWhat = `/our-history/what-is-bhna/`
   const uriShop = `/shop/`
+  const uriArch = `/bh-architectural-styles/`
   
   console.log(uriEvents)
   
@@ -89,6 +91,20 @@ return (
             </PageContent>
         </ContentWrapper>
         </Wrapper>
+
+        <Wrapper>
+        <ContentWrapper>
+            <PageContent>
+                <Content dangerouslySetInnerHTML={{ __html: data.wpPage.content }} />
+               
+                {data.wpPage.uri===uriArch ? (
+             <ArchPage />
+            ) : null }  
+                  
+            </PageContent>
+        </ContentWrapper>
+        </Wrapper>
+             
     </Layout>
   )
 

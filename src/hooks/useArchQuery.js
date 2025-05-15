@@ -4,8 +4,8 @@ export const useArchQuery = () => {
     const data = useStaticQuery(graphql`
       query ArchQuery {
         wpPage(databaseId: {eq: 1203}) {
-    ACF_ArchStyles {
-      arch_image_1 {
+    ACF_Archstyles {
+      archImage1 {
         localFile {
           childImageSharp {
             fluid(maxWidth: 1080) {
@@ -20,9 +20,9 @@ export const useArchQuery = () => {
           }
         }
       }
-      arch_styles_text1
-      main_section
-      arch_link
+      archStylesText1
+      mainSection
+      archLink
       
     }
   }

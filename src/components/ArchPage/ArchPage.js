@@ -1,21 +1,42 @@
 import React from "react"
 import SEO from "../seo"
+import parse from 'html-react-parser'
 
 import { useArchQuery } from "../../hooks/useArchQuery"
 
-import {  Wrapper } from "./ArchPage.styles"
+import LandmarkCover from "../LandmarkCover/LandmarkCover"
+
+import { getImage } from "gatsby-plugin-image"
+import { Wrapper, StyledImg, InnerWrapper, Section, SectionCopy, SectionImg } from "./ArchPage.styles"
+import "@wordpress/block-library/build-style/style.css"
 
 const ArchPage = () => {
-    const { archinfo } = useArchQuery();
-    console.log(archinfo, "arch")
-    
+   const {
+    wpPage: { ACF_ArchStyles: data }
+   } = useArchQuery();
+   console.log(data, "arch")
+   
+   const imgData1 = getImage(data.archImage1.localFile);
 
     return (
+        <>
+        <SEO title="BH Architectural Styles" />
+        <LandmarkCover />
         <Wrapper>
-        <SEO title="BH Arch Stylees" />
-        
-        
+             <InnerWrapper>
+             <Section>
+            <SectionCopy>
+            {parse(`${data.mainSection}`)}
+            </SectionCopy>
+
+            <SectionImg>
+            <StyledImg image={imgData1} alt="Victorian House" /> 
+            </SectionImg>
+            </Section> 
+            </InnerWrapper>
+           
         </Wrapper>
+        </>
     )
 }
 

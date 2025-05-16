@@ -28,6 +28,16 @@ const ArchPage = () => {
              <Section>
             <SectionCopy>
             {parse(`${data.mainSection}`)}
+
+            <BTN>
+            <a 
+            className="support-btn" 
+            href={data.archLink}  
+            target="_blank" rel="noopener noreferrer">
+                Style Gallery 
+            </a>
+            </BTN>
+            
             </SectionCopy>
 
             <SectionImg>

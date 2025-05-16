@@ -14,7 +14,7 @@ const ArchPage = () => {
    return (
            <Wrapper>
             
-            <ParagraphIntro>{data.description}</ParagraphIntro>
+            <ParagraphIntro>{data.archStylesText1}</ParagraphIntro>
             <StyledImg image={imgData} alt="BH Arch Example" />
             </Wrapper>
             

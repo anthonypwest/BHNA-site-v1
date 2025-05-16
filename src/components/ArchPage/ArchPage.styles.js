@@ -115,7 +115,7 @@ export const P = styled.p`
 color: ${props => props.theme.colors.dark1};
 line-height: 1.5;
 padding-bottom: 1.5rem; 
-
+`
 
 export const JoinWrapper = styled.section`
     padding: 4.4rem 0;

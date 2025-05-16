@@ -213,4 +213,3 @@ export const BTN = styled.div`
 //     max-width: 300px;
     
 // `
-`

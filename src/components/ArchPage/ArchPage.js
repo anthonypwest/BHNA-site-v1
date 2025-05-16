@@ -4,6 +4,8 @@ import parse from 'html-react-parser'
 
 import { useArchQuery } from "../../hooks/useArchQuery"
 
+import ArchCover from "./ArchCover"
+
 import { getImage } from "gatsby-plugin-image"
 import { Wrapper, StyledImg, InnerWrapper, Section, SectionCopy, SectionImg } from "./ArchPage.styles"
 import "@wordpress/block-library/build-style/style.css"
@@ -19,7 +21,8 @@ const ArchPage = () => {
     return (
         <>
         <SEO title="BH Architectural Styles" />
-
+        <ArchCover />
+       
         <Wrapper>
              <InnerWrapper>
              <Section>

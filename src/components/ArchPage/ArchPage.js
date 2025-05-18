@@ -48,7 +48,7 @@ const ArchPage = () => {
         <Wrapper>
              <InnerWrapper>
              <Section>             
-            <SectionCopy>
+            <SectionCopyR>
             {parse(`${data.mainSection2}`)}
 
             <BTN>
@@ -60,11 +60,11 @@ const ArchPage = () => {
             </a>
             </BTN>
             
-            </SectionCopy>
+            </SectionCopyR>
 
-            <SectionImg>
+            <SectionImgR>
             <StyledImg image={imgData2} alt="Victorian House" /> 
-            </SectionImg>
+            </SectionImgR>
 
             </Section> 
             </InnerWrapper>
@@ -107,7 +107,7 @@ const ArchPage = () => {
         <Wrapper>
              <InnerWrapper>
              <Section>             
-            <SectionCopy>
+            <SectionCopyR>
             {parse(`${data.mainSection4}`)}
 
             <BTN>
@@ -135,11 +135,11 @@ const ArchPage = () => {
             </a>
             </BTN>
             
-            </SectionCopy>
+            </SectionCopyR>
 
-            <SectionImg>
+            <SectionImgR>
             <StyledImg image={imgData4} alt="Revival House" /> 
-            </SectionImg>
+            </SectionImgR>
 
             </Section> 
             </InnerWrapper>
@@ -174,14 +174,14 @@ const ArchPage = () => {
         <Wrapper>
              <InnerWrapper>
              <Section>
-            <SectionCopy>
+            <SectionCopyR>
             {parse(`${data.mainSection6}`)}
             
-            </SectionCopy>
+            </SectionCopyR>
 
-            <SectionImg>
+            <SectionImgR>
             <StyledImg image={imgData6} alt="Bungalow Heaven House" /> 
-            </SectionImg>
+            </SectionImgR>
             </Section> 
             </InnerWrapper>
            

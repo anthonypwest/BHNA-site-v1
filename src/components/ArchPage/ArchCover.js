@@ -9,15 +9,16 @@ const ArchPage = () => {
     wpPage: { ACF_ArchStyles: data}
    } = useArchQuery();
    
-   const imgData = getImage(data.archImage2.localFile); 
+   const imgData1 = getImage(data.archImage1.localFile); 
 
    return (
            <Wrapper>
             
-            <ParagraphIntro>{data.archStylesText1}</ParagraphIntro>
-            <StyledImg image={imgData} alt="BH Arch Example" />
+            <ParagraphIntro>{parse(`${data.mainSection1}`)}</ParagraphIntro>
+            <StyledImg image={imgData1} alt="Composite" />
             </Wrapper>
-            
+
+
     )
 }
 export default ArchPage

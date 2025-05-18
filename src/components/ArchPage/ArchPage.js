@@ -7,7 +7,7 @@ import { useArchQuery } from "../../hooks/useArchQuery"
 import ArchCover from "./ArchCover"
 
 import { getImage } from "gatsby-plugin-image"
-import { Wrapper, StyledImg, InnerWrapper, Section, SectionCopy, SectionImg, BTN } from "./ArchPage.styles"
+import { Wrapper, StyledImg, InnerWrapper, Section, SectionCopy, SectionImg, SectionCopyR, SectionImgR, BTN } from "./ArchPage.styles"
 
 import "@wordpress/block-library/build-style/style.css"
 

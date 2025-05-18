@@ -47,12 +47,7 @@ const ArchPage = () => {
 
         <Wrapper>
              <InnerWrapper>
-             <Section>
-
-            <SectionImg>
-            <StyledImg image={imgData2} alt="Victorian House" /> 
-            </SectionImg>
-             
+             <Section>             
             <SectionCopy>
             {parse(`${data.mainSection2}`)}
 
@@ -67,6 +62,9 @@ const ArchPage = () => {
             
             </SectionCopy>
 
+            <SectionImg>
+            <StyledImg image={imgData2} alt="Victorian House" /> 
+            </SectionImg>
 
             </Section> 
             </InnerWrapper>
@@ -100,6 +98,89 @@ const ArchPage = () => {
 
             <SectionImg>
             <StyledImg image={imgData3} alt="Craftsman House" /> 
+            </SectionImg>
+            </Section> 
+            </InnerWrapper>
+           
+        </Wrapper>
+
+        <Wrapper>
+             <InnerWrapper>
+             <Section>             
+            <SectionCopy>
+            {parse(`${data.mainSection4}`)}
+
+            <BTN>
+            <a 
+            className="support-btn" 
+            href={data.archLink4}  
+            target="_blank" rel="noopener noreferrer">
+                Colonial Revival Style Gallery 
+            </a>
+            </BTN>
+            <BTN>
+            <a 
+            className="support-btn" 
+            href={data.archLink5}  
+            target="_blank" rel="noopener noreferrer">
+                English Revival Style Gallery 
+            </a>
+            </BTN>
+            <BTN>
+            <a 
+            className="support-btn" 
+            href={data.archLink6}  
+            target="_blank" rel="noopener noreferrer">
+                Mediterranean Revival Style Gallery 
+            </a>
+            </BTN>
+            
+            </SectionCopy>
+
+            <SectionImg>
+            <StyledImg image={imgData4} alt="Revival House" /> 
+            </SectionImg>
+
+            </Section> 
+            </InnerWrapper>
+           
+        </Wrapper>
+
+        <Wrapper>
+             <InnerWrapper>
+             <Section>
+            <SectionCopy>
+            {parse(`${data.mainSection5}`)}
+
+            <BTN>
+            <a 
+            className="support-btn" 
+            href={data.archLink7}  
+            target="_blank" rel="noopener noreferrer">
+                Minimal Traditional Style Gallery 
+            </a>
+            </BTN>
+            
+            </SectionCopy>
+
+            <SectionImg>
+            <StyledImg image={imgData5} alt="Minimal Traditional House" /> 
+            </SectionImg>
+            </Section> 
+            </InnerWrapper>
+           
+        </Wrapper>
+
+        <Wrapper>
+             <InnerWrapper>
+             <Section>
+            <SectionCopy>
+            {parse(`${data.mainSection6}`)}
+            
+            </SectionCopy>
+
+            <SectionImg>
+            <StyledImg image={imgData6} alt="Bungalow Heaven House" /> 
             </SectionImg>
             </Section> 
             </InnerWrapper>

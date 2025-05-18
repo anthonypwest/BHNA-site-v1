@@ -48,6 +48,11 @@ const ArchPage = () => {
         <Wrapper>
              <InnerWrapper>
              <Section>
+
+            <SectionImg>
+            <StyledImg image={imgData2} alt="Victorian House" /> 
+            </SectionImg>
+             
             <SectionCopy>
             {parse(`${data.mainSection2}`)}
 
@@ -56,20 +61,50 @@ const ArchPage = () => {
             className="support-btn" 
             href={data.archLink1}  
             target="_blank" rel="noopener noreferrer">
-                Style Gallery 
+                Victorian Style Gallery 
+            </a>
+            </BTN>
+            
+            </SectionCopy>
+
+
+            </Section> 
+            </InnerWrapper>
+           
+        </Wrapper>
+
+        <Wrapper>
+             <InnerWrapper>
+             <Section>
+            <SectionCopy>
+            {parse(`${data.mainSection3}`)}
+
+            <BTN>
+            <a 
+            className="support-btn" 
+            href={data.archLink2}  
+            target="_blank" rel="noopener noreferrer">
+                Early Craftsman Style Gallery 
+            </a>
+            </BTN>
+            <BTN>
+            <a 
+            className="support-btn" 
+            href={data.archLink3}  
+            target="_blank" rel="noopener noreferrer">
+                Classic Craftsman Style Gallery 
             </a>
             </BTN>
             
             </SectionCopy>
 
             <SectionImg>
-            <StyledImg image={imgData2} alt="Victorian House" /> 
+            <StyledImg image={imgData3} alt="Craftsman House" /> 
             </SectionImg>
             </Section> 
             </InnerWrapper>
            
         </Wrapper>
-
 
         
         </>

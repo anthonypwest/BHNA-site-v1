@@ -18,6 +18,11 @@ const ArchPage = () => {
    console.log(data, "arch")
    
    const imgData1 = getImage(data.archImage1.localFile);
+   const imgData2 = getImage(data.archImage2.localFile);
+   const imgData3 = getImage(data.archImage3.localFile);
+   const imgData4 = getImage(data.archImage4.localFile);
+   const imgData5 = getImage(data.archImage5.localFile);
+   const imgData6 = getImage(data.archImage6.localFile);
 
     return (
         <>
@@ -28,12 +33,28 @@ const ArchPage = () => {
              <InnerWrapper>
              <Section>
             <SectionCopy>
-            {parse(`${data.mainSection}`)}
+            {parse(`${data.mainSection1}`)}
+            
+            </SectionCopy>
+
+            <SectionImg>
+            <StyledImg image={imgData1} alt="Composite" /> 
+            </SectionImg>
+            </Section> 
+            </InnerWrapper>
+           
+        </Wrapper>
+
+        <Wrapper>
+             <InnerWrapper>
+             <Section>
+            <SectionCopy>
+            {parse(`${data.mainSection2}`)}
 
             <BTN>
             <a 
             className="support-btn" 
-            href={data.archLink}  
+            href={data.archLink1}  
             target="_blank" rel="noopener noreferrer">
                 Style Gallery 
             </a>
@@ -42,12 +63,15 @@ const ArchPage = () => {
             </SectionCopy>
 
             <SectionImg>
-            <StyledImg image={imgData1} alt="Victorian House" /> 
+            <StyledImg image={imgData2} alt="Victorian House" /> 
             </SectionImg>
             </Section> 
             </InnerWrapper>
            
         </Wrapper>
+
+
+        
         </>
     )
 }

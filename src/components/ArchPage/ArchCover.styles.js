@@ -2,7 +2,7 @@ import styled from "styled-components"
 import { GatsbyImage } from "gatsby-plugin-image"
 
 export const StyledImg = styled(GatsbyImage)`
-    width: 100%;
+/*    width: 100%;
     max-width: 640px;
     border-left: 6px solid #fff;
   
@@ -17,7 +17,7 @@ export const StyledImg = styled(GatsbyImage)`
   @media ${props => props.theme.breakpoints.tablet2} {
     max-width: 100%;
     max-height: 580px;
-  }
+  }  */
 `
 
 

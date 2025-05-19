@@ -40,7 +40,7 @@ export const ParagraphIntro = styled.p`
 `
 
 export const Wrapper = styled.div`
-    display: flex;
+/*    display: flex;
     background-color: ${props => props.theme.colors.main3};
 
     @media ${props => props.theme.breakpoints.tablet2} {
@@ -50,7 +50,13 @@ export const Wrapper = styled.div`
   @media ${props => props.theme.breakpoints.tablet2} {
     flex-direction: column;
     
+  }  */
+
+    padding: 0 24px;
+
+    h3 {
+    
   }
- 
+
 
 `

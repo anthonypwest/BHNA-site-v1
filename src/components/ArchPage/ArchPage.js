@@ -7,7 +7,7 @@ import { useArchQuery } from "../../hooks/useArchQuery"
 import ArchCover from "./ArchCover"
 
 import { getImage } from "gatsby-plugin-image"
-import { Wrapper, StyledImg, InnerWrapper, Section, SectionCopy, SectionImg, SectionCopyR, SectionImgR, BTN } from "./ArchPage.styles"
+import { Wrapper, StyledImg, InnerWrapper, Section, SectionCopy, SectionCopyRed, SectionImg, SectionCopyR, SectionImgR, BTN } from "./ArchPage.styles"
 
 import "@wordpress/block-library/build-style/style.css"
 
@@ -32,10 +32,10 @@ const ArchPage = () => {
         <Wrapper>
              <InnerWrapper>
              <Section>
-            <SectionCopy>
+            <SectionCopyRed>
             {parse(`${data.mainSection1}`)}
             
-            </SectionCopy>
+            </SectionCopyRed>
 
             <SectionImg>
             <StyledImg image={imgData1} alt="Composite" /> 

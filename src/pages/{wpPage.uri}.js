@@ -86,20 +86,9 @@ return (
                
                 {data.wpPage.uri===uriShop ? (
              <ShopPage />
-            ) : null }  
-                  
-            </PageContent>
-        </ContentWrapper>
-        </Wrapper>
-
-        <Wrapper>
-        <ContentWrapper>
-            <PageContent>
-                <Content dangerouslySetInnerHTML={{ __html: data.wpPage.content }} />
-               
-                {data.wpPage.uri===uriArch ? (
+            ) : {data.wpPage.uri===uriArch ? (
              <ArchPage />
-            ) : null }  
+            ) : null } }  
                   
             </PageContent>
         </ContentWrapper>

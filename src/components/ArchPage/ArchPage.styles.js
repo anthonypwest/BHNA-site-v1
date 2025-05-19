@@ -33,6 +33,13 @@ export const SectionCopy = styled.p`
   
 `
 
+export const SectionCopyRed = styled.p`
+  grid-column: 1;
+  line-height: 1.5;
+  background-color: ${props => props.theme.colors.main3};
+  
+`
+
 export const SectionImg = styled.div`
   grid-column: 2;
   padding-bottom: 1rem;

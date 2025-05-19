@@ -74,7 +74,7 @@ return (
             ) : null }
 
           {data.wpPage.uri===uriBoD ? (
-             < />
+             <BoDPage />
             ) : null }
         
 

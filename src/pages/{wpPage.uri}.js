@@ -84,11 +84,11 @@ return (
             <PageContent>
                 <Content dangerouslySetInnerHTML={{ __html: data.wpPage.content }} />
                
-                {data.wpPage.uri===uriShop ? (
-             <ShopPage />
-            ) : {data.wpPage.uri===uriArch ? (
-             <ArchPage />
-            ) : null } }  
+                {data.wpPage.uri === uriShop ? (
+                  <ShopPage />
+                ) : data.wpPage.uri === uriArch ? (
+                  <ArchPage />
+                ) : null }
                   
             </PageContent>
         </ContentWrapper>

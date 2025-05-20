@@ -1,6 +1,7 @@
 import React from "react"
 import SEO from "../seo"
 import parse from 'html-react-parser'
+import formatWysiwygHtml from "./formatWysiwygHtml.js"
 
 import { useArchQuery } from "../../hooks/useArchQuery"
 

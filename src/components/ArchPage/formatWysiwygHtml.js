@@ -5,7 +5,7 @@ const formatWysiwygHtml = htmlString => {
 
   // 1. Increase font size for bold text
   $("strong, b").each(function () {
-    $(this).css("font-size", "1.2em");
+    $(this).css("font-size", "1.3em");
   });
 
   // 2. Add EM spaces before lines starting with bullets
@@ -18,7 +18,7 @@ const formatWysiwygHtml = htmlString => {
         const text = $(el).text();
         const lines = text.split("\n").map(line =>
           bulletRegex.test(line.trim())
-            ? "\u2003\u2003" + line
+            ? "\u2003\u2003\u2003\u2003" + line
             : line
         );
         $(el).replaceWith(lines.join("\n"));

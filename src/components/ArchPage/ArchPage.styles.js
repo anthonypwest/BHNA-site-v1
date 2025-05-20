@@ -9,6 +9,14 @@ export const Wrapper = styled.div`
   }
 `
 
+export const WrapperRed = styled.div`
+    padding: 0 24px;
+
+    h3 {
+    
+  }
+`
+
 export const Section = styled.section`
   margin: 72px auto 4rem auto; 
   

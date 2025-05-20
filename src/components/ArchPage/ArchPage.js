@@ -27,7 +27,7 @@ const ArchPage = () => {
     return (
         <>
         <SEO title="BH Architectural Styles" />
- /*       <ArchCover />   */
+//        <ArchCover />
        
         <Wrapper>
              <InnerWrapper>

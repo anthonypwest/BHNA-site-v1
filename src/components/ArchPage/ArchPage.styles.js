@@ -130,6 +130,15 @@ export const InnerWrapper = styled.div`
   
 ` 
 
+export const InnerWrapperRed = styled.div`
+    display: flex;
+    background-color: ${props => props.theme.colors.main3};
+
+    @media ${props => props.theme.breakpoints.tablet2} {
+     flex-direction: column;
+    } 
+  
+` 
 
 
 export const FAQ = styled.div`

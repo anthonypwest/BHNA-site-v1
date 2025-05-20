@@ -8,7 +8,7 @@ import { useArchQuery } from "../../hooks/useArchQuery"
 import ArchCover from "./ArchCover"
 
 import { getImage } from "gatsby-plugin-image"
-import { Wrapper, StyledImg, InnerWrapper, InnerWrapperRed, Section, SectionRed, SectionCopy, SectionCopyRed, SectionImg, SectionCopyR, SectionImgR, BTN } from "./ArchPage.styles"
+import { Wrapper, WrapperRed, StyledImg, InnerWrapper, InnerWrapperRed, Section, SectionRed, SectionCopy, SectionCopyRed, SectionImg, SectionCopyR, SectionImgR, BTN } from "./ArchPage.styles"
 
 import "@wordpress/block-library/build-style/style.css"
 
@@ -29,7 +29,7 @@ const ArchPage = () => {
         <>
         <SEO title="BH Architectural Styles" />
        
-        <Wrapper>
+        <WrapperRed>
              <InnerWrapperRed>
              <SectionRed>
             <SectionCopyRed>
@@ -43,7 +43,7 @@ const ArchPage = () => {
             </SectionRed> 
             </InnerWrapperRed>
            
-        </Wrapper>
+        </WrapperRed>
 
         <Wrapper>
              <InnerWrapper>

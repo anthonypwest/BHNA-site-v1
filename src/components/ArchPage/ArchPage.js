@@ -33,7 +33,7 @@ const ArchPage = () => {
              <InnerWrapper>
              <SectionRed>
             <SectionCopyRed>
-            {parse(`${data.mainSection1}`)}
+            {parse(formatWysiwygHtml(data.mainSection1))}
             
             </SectionCopyRed>
 

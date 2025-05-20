@@ -27,6 +27,25 @@ export const Section = styled.section`
   
 `
 
+export const SectionRed = styled.section`
+  margin: 72px auto 4rem auto; 
+  
+  max-width: 1280px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0rem;
+
+  h3 {
+    
+  }
+
+  @media ${props => props.theme.breakpoints.tablet2} {
+    grid-template-columns: 1fr ;
+  }
+  
+`
+
+
 export const SectionCopy = styled.p`
   grid-column: 1;
   line-height: 1.5;
@@ -39,7 +58,7 @@ export const SectionCopyRed = styled.p`
   background-color: ${props => props.theme.colors.main3};
   color: #fff;
   width: 100%;
-  padding: 1.0rem 1.0rem 1.0rem 1.0rem;
+  padding: 1.0rem 3.0rem 1.0rem 7.0rem;
 `
 
 export const SectionImg = styled.div`

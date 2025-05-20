@@ -79,6 +79,16 @@ export const SectionImg = styled.div`
   }
 `
 
+export const SectionImgRed = styled.div`
+  grid-column: 2;
+  padding-bottom: 1rem;
+
+  @media ${props => props.theme.breakpoints.tablet2} {
+    grid-column: 1;
+    padding: 0;
+  }
+`
+
 export const SectionCopyR = styled.p`
   grid-column: 2;
   line-height: 1.5;

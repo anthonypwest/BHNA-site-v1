@@ -61,7 +61,6 @@ export const SectionCopy = styled.p`
 `
 
 export const SectionCopyRed = styled.p`
-  grid-column: 1;
   line-height: 1.5;
   background-color: ${props => props.theme.colors.main3};
   color: #fff;
@@ -81,7 +80,6 @@ export const SectionImg = styled.div`
 `
 
 export const SectionImgRed = styled.div`
-  grid-column: 2;
   width: 100%;
   max-width: 640px;
 

@@ -31,7 +31,6 @@ const ArchPage = () => {
        
         <WrapperRed>
              <InnerWrapperRed>
-             <SectionRed>
             <SectionCopyRed>
             {parse(formatWysiwygHtml(data.mainSection1))}
             
@@ -40,7 +39,6 @@ const ArchPage = () => {
             <SectionImgRed>
             <StyledImg image={imgData1} alt="Composite" /> 
             </SectionImgRed>
-            </SectionRed> 
             </InnerWrapperRed>
            
         </WrapperRed>

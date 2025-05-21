@@ -82,6 +82,8 @@ export const SectionImg = styled.div`
 export const SectionImgRed = styled.div`
   grid-column: 2;
   padding-bottom: 1rem;
+  width: 100%;
+  max-width: 640px;
 
   @media ${props => props.theme.breakpoints.tablet2} {
     grid-column: 1;

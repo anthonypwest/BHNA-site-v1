@@ -29,19 +29,15 @@ const ArchPage = () => {
         <>
         <SEO title="BH Architectural Styles" />
        
-        <WrapperRed>
-             <InnerWrapperRed>
+            <InnerWrapperRed>
             <SectionCopyRed>
             {parse(formatWysiwygHtml(data.mainSection1))}
-            
             </SectionCopyRed>
 
             <SectionImgRed>
             <StyledImg image={imgData1} alt="Composite" /> 
             </SectionImgRed>
             </InnerWrapperRed>
-           
-        </WrapperRed>
 
         <Wrapper>
              <InnerWrapper>

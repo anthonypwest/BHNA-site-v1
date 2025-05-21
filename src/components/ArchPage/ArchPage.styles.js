@@ -66,7 +66,8 @@ export const SectionCopyRed = styled.p`
   background-color: ${props => props.theme.colors.main3};
   color: #fff;
   width: 100%;
-  padding: 0.8rem 2.8rem 0.8rem 1.9rem;;
+  margin: auto;
+  padding: 0.8rem 2.8rem 0.8rem 1.9rem;
 `
 
 export const SectionImg = styled.div`
@@ -81,7 +82,6 @@ export const SectionImg = styled.div`
 
 export const SectionImgRed = styled.div`
   grid-column: 2;
-  padding-bottom: 1rem;
   width: 100%;
   max-width: 640px;
 

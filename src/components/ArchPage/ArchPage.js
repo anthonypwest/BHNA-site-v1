@@ -28,7 +28,7 @@ const ArchPage = () => {
     return (
         <>
         <SEO title="BH Architectural Styles" />
-       
+            <ArchCover />
             <InnerWrapperRed>
             <SectionCopyRed>
             {parse(formatWysiwygHtml(data.mainSection1))}

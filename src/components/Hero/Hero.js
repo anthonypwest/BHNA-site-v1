@@ -30,7 +30,7 @@ const Hero = () => {
                 </div>
 
                 <div className="hero-line2">
-                <span className="hero__details">Moved to April 26, 2026</span>
+                <span className="hero__details">April 26, 2026</span>
                 <h3></h3>
                 </div>
 

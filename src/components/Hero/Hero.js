@@ -42,9 +42,6 @@ const Hero = () => {
                 <p>&nbsp;
                 </p>
                     
-                 <a href="https://bhhometour.eventbrite.com" className="tour-cta_btn">
-                    Buy Tickets
-                </a>
    
                 </Content>
             </HeaderWrapper> 

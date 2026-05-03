@@ -27,12 +27,8 @@ const HomeTourCover = () => {
             <Seperator />
             <div>
                 <p className="tour__online">Join us</p>
-                <p className="tour__info"> <b>April 26, 2026</b> | Tickets available starting March 8, 2026</p>
-                <a href="https://bhhometour.eventbrite.com" rel="noopener noreferrer" target="_blank">
-                    <button>
-                        Buy Tickets
-                    </button>
-                </a>
+                <p className="tour__info"> <b>April 26, 2026</b></p>
+         
             </div>
 
 

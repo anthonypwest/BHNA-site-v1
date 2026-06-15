@@ -19,15 +19,16 @@ const HomeTourCover = () => {
             
           
            <TourDetails className="about-text">
-            <h2>35th Annual Bungalow Heaven Home Tour 2026</h2>  
+            <h2>36th Annual Bungalow Heaven Home Tour</h2>  
             <Seperator />
             <div>
-                <p className="tour__headline">Celebrate History – Embrace Community</p>
+                <p className="tour__headline">Save the Date</p>
+                <p className="tour__sub-headline">Historic Homes & Artisan Demonstrations</p>
             </div>
             <Seperator />
             <div>
                 <p className="tour__online">Join us</p>
-                <p className="tour__info"> <b>April 26, 2026</b></p>
+                <p className="tour__info"> <b>April 25, 2027</b></p>
          
             </div>
 

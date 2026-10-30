@@ -15,7 +15,7 @@ const ShopPage = () => {
     return (
         <Wrapper>
         <SEO title="Shop" />
-        {new Array(9).fill("").map((element, i) => (
+        {new Array(7).fill("").map((element, i) => (
             <Product 
             key={i}
             image={
